@@ -49,7 +49,12 @@ public class CaptureCameraEditor : Editor
         }
         else if (captureCamera.resolution == 5)
         {
+            // 書き出し後のサイズ   
+#if UNITY_2017_OR_NEWER
             EditorGUILayout.Vector2IntField("Screen Size", new Vector2Int(captureCamera.width, captureCamera.height));
+#else
+            EditorGUILayout.Vector2Field("Screen Size", new Vector2(captureCamera.width, captureCamera.height));
+#endif
             EditorGUILayout.Space();
         }
 
