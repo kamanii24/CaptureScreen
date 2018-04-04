@@ -10,5 +10,5 @@
 4. なんかエラーが出るけど気にしない。<br>
 
 ## ビルド環境<br>
-Unity 2017.3.0f4<br>
-macOS High Sierra 10.13.2
+Unity 2017.3.1f1<br>
+macOS High Sierra 10.13.4
